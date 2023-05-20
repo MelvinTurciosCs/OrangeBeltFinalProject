@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Universal Product Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div id="product-details">
+      <div id="product-image">
+        <img src="product-image.jpg" alt="Product Image">
+      </div>
+      
+      <div id="product-info">
+        <h1>Product Title</h1>
+        <p class="price">$99.99</p>
+        <div class="rating">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9734;</span>
+        </div>
+        <p class="address-uncertainty">Address Uncertainty: Yes</p>
+        <div class="product-versions">
+          <label for="version">Product Version:</label>
+          <select id="version">
+            <option value="version1">Version 1</option>
+            <option value="version2">Version 2</option>
+            <option value="version3">Version 3</option>
+          </select>
+        </div>
+        <button id="add-to-cart">Add to Cart</button>
+        <p class="address-uncertainty">Address Uncertainty: No</p>
+      </div>
+    </div>
+    
+    <section id="below-fold">
+      <h2>Recommended Products</h2>
+      
+      <p class="short-description">Short Product Description</p>
+      
+      <div id="product-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <div id="long-description">
+        <h2>Long Product Description</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae libero eu metus pulvinar auctor vel at ante. Morbi consequat varius mauris, in gravida sem molestie id. Praesent fringilla, eros in commodo accumsan, nisl ipsum rutrum nulla, sed rutrum lectus ex vitae neque. Integer et tempor elit. Phasellus aliquam neque quis massa aliquam, sed tristique arcu rutrum. Integer suscipit cursus tellus, sed fringilla eros cursus id. Sed sagittis consequat orci et aliquam. Nulla rutrum ligula ut iaculis blandit.</p>
+        
+        <h2>Product Specifications</h2>
+        <ul>
+          <li>Specification 1: Lorem ipsum dolor sit amet</li>
+          <li>Specification 2: Consectetur adipiscing elit</li>
+          <li>Specification 3: Sed vitae libero eu metus</li>
+        </ul>
+      </div>
+      
+      <h2>Recommended Products</h2>
+      
+      <div id="customer-reviews">
+        <div class="review">
+          <h3>Customer 1</h3>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae libero eu metus pulvinar auctor vel at ante.</p>
+        </div>
+        
+        <div class="review">
+          <h3>Customer 2</h3>
+          <div class="rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9734;</span>
+            <span class="star">&#9734;</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae libero eu metus pulvinar auctor vel at ante.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Melvin Turcios. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
